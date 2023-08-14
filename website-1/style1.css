@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nv{
+    background-image: url("z12.jpg");
+    width: 100%;
+    height: 400px;
+}
+.nv nav{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    
+    
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-block: 10px;
+}
+.nv nav .right{
+    display: flex;
+    margin-top: 15px;
+    
+}
+
+.nv nav .right a{
+    margin: 0 35px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.nv nav .right a:hover{
+    color: blue;
+    transition: 0.09s;
+}
+
+
+.right p{
+   
+    font-size: 20px;
+    margin: 0 25x;
+}
+.nv nav p{
+    font-size: 20px;
+    margin-top: 7px;
+}
+.nav p{
+    
+    margin-inline: 11px;
+    margin-top: 15px;
+}
+.right p a{
+    border-radius: 3px solid black;
+}
+
+.nv .logo{
+    text-align: center;
+    margin: 25px;
+}
+.nv.logo img{
+    width: 38%;
+    margin-top: 45px;
+    cursor: pointer;
+}
+.rest img.sec {
+    width: 370px;
+    cursor: pointer;
+}
+
+.nv .inp{
+    text-align: center;
+}
+.nv .text{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 2px;
+    font-size: 24px;
+}
+.nv .inp input{
+    width: 600px;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 19px;
+    padding: 18px;
+    border: none;
+    outline: none;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.card .crd img{
+    width: 320px;
+    height: 220px;
+    border-radius: 6px;
+    margin-top: 55px;
+    
+}
+.coll.text{
+    margin-top: 15px;
+    margin-left: 34px;
+    margin: 64px;
+    justify-content: space-around;
+}
+.coll.rest{
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   ;
+}
+ img.fir{
+    width: 35%;
+}
+img.sec{
+    width: 20%;
+}
+.rest img{
+    cursor: pointer;
+    width: 22%;
+    margin: 6px 25px;
+   border-radius: 7px;    
+}
+
+.app{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: pink;
+    margin-top: 66px;
+    
+}
+.logo h1{
+    cursor: pointer;
+}
+.app img{
+    width: 35%;
+}
+.app h1{
+    margin-top: 94px;
+    font-size: 44px;
+}
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 30px;
+    margin-left: 150px;
+   
+}
+.btn button{
+    cursor: pointer;
+    font-size: 22px;
+    width: 75%;
+    height: 50px;
+    border-radius: 15px solid black;
+    background-color: rgb(239, 242, 243);
+    
+    margin-top: 11px;
+    margin-left: 200px;
+}
+.btn button:hover{
+    cursor: pointer;
+    color: rgb(118, 150, 131);
+    background-color: yellowgreen;
+}
+
+.footer{
+    font-size: 22px;
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: grey;
+    padding: 44px;
+}
+.list p{
+    margin-top: 4px;
+}
+
